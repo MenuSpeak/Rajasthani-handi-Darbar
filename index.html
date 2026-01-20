@@ -1102,11 +1102,11 @@
 
           <div class="tabs-scroll">
 <button class="tab active" data-cat="all">All</button>
-<button class="tab" data-cat="मेकिंग चार्जेस / Making Charges">Making Charges</button>
+<!-- <button class="tab" data-cat="मेकिंग चार्जेस / Making Charges">Making Charges</button> -->
 <button class="tab" data-cat="सूप / Soup">Soups</button>
-<button class="tab" data-cat="स्टार्टर / Starters">Pakoda & Snacks</button>
-<button class="tab" data-cat="तंदूरी और स्टार्टर / Tandoori & Starters">Tandoori & Tikka</button>
-<button class="tab" data-cat="मेन कोर्स / Main Course">Main Course</button>
+<button class="tab" data-cat="अन्य / Others">hukka</button>
+<!-- <button class="tab" data-cat="तंदूरी और स्टार्टर / Tandoori & Starters">Tandoori & Tikka</button>
+<button class="tab" data-cat="मेन कोर्स / Main Course">Main Course</button> -->
 <button class="tab" data-cat="NON-VEG">Non-Veg Specials</button>
 <button class="tab" data-cat="VEG">Veg Specials</button>
 <button class="tab" data-cat="ROTI">Roti & Breads</button>
@@ -1242,29 +1242,29 @@
   <script>
     // Menu Data   
     const data = [
-  {"id": 1, "cat": "मेकिंग चार्जेस / Making Charges", "name": "मटन मेकिंग (500gm) / Mutton Making (500gm)", "price": "200/-", "desc": "मटन बनाने का शुल्क (500 ग्राम)।", "tags": ["Service", "Mutton"], "img": "img/mutton_making.jpg"},
-  {"id": 2, "cat": "मेकिंग चार्जेस / Making Charges", "name": "मटन मेकिंग (1kg) / Mutton Making (1kg)", "price": "300/-", "desc": "मटन बनाने का शुल्क (1 किलो)।", "tags": ["Service", "Mutton"], "img": "img/mutton_making.jpg"},
-  {"id": 3, "cat": "मेकिंग चार्जेस / Making Charges", "name": "चिकन मेकिंग (500gm) / Chicken Making (500gm)", "price": "100/-", "desc": "चिकन बनाने का शुल्क (500 ग्राम)।", "tags": ["Service", "Chicken"], "img": "img/chicken_making.jpg"},
-  {"id": 4, "cat": "मेकिंग चार्जेस / Making Charges", "name": "चिकन मेकिंग (1kg) / Chicken Making (1kg)", "price": "200/-", "desc": "चिकन बनाने का शुल्क (1 किलो)।", "tags": ["Service", "Chicken"], "img": "img/chicken_making.jpg"},
+  // {"id": 1, "cat": "मेकिंग चार्जेस / Making Charges", "name": "मटन मेकिंग (500gm) / Mutton Making (500gm)", "price": "200/-", "desc": "मटन बनाने का शुल्क (500 ग्राम)।", "tags": ["Service", "Mutton"], "img": "img/mutton_making.jpg"},
+  // {"id": 2, "cat": "मेकिंग चार्जेस / Making Charges", "name": "मटन मेकिंग (1kg) / Mutton Making (1kg)", "price": "300/-", "desc": "मटन बनाने का शुल्क (1 किलो)।", "tags": ["Service", "Mutton"], "img": "img/mutton_making.jpg"},
+  // {"id": 3, "cat": "मेकिंग चार्जेस / Making Charges", "name": "चिकन मेकिंग (500gm) / Chicken Making (500gm)", "price": "100/-", "desc": "चिकन बनाने का शुल्क (500 ग्राम)।", "tags": ["Service", "Chicken"], "img": "img/chicken_making.jpg"},
+  // {"id": 4, "cat": "मेकिंग चार्जेस / Making Charges", "name": "चिकन मेकिंग (1kg) / Chicken Making (1kg)", "price": "200/-", "desc": "चिकन बनाने का शुल्क (1 किलो)।", "tags": ["Service", "Chicken"], "img": "img/chicken_making.jpg"},
   {"id": 5, "cat": "सूप / Soup", "name": "चिकन सूप / Soup", "price": "50/-", "desc": "गरमा-गरम स्वादिष्ट सूप।", "tags": ["Veg", "Non-Veg", "Soup"], "img": "img/soup1.jpg"},
-  {"id": 6, "cat": "स्टार्टर / Starters", "name": "फिश पकोडा (250gm) / Fish Pakoda (250gm)", "price": "100/-", "desc": "कुरकुरा फिश पकोड़ा (250 ग्राम)।", "tags": ["Non-Veg", "Fish", "Starter"], "img": "img/fish_pakoda.jpg"},
-  {"id": 7, "cat": "तंदूरी और रोटी / Tandoori & Roti", "name": "तंदूरी रोटी / Tandoori Roti", "price": "10/-", "desc": "गरम सादी तंदूरी रोटी।", "tags": ["Veg", "Roti"], "img": "img/tandoori_roti.jpg"},
-  {"id": 8, "cat": "तंदूरी और रोटी / Tandoori & Roti", "name": "बटर तंदूरी रोटी / Butter Tandoori Roti", "price": "15/-", "desc": "मक्खन वाली तंदूरी रोटी।", "tags": ["Veg", "Roti"], "img": "img/butter_roti.jpg"},
-  {"id": 9, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "तंदूरी अंडा (2 नग) / Tandoori Egg (2 Pc)", "price": "80/-", "desc": "तंदूरी स्टाइल अंडा (2 पीस)।", "tags": ["Non-Veg", "Egg"], "img": "img/tandoori_egg.jpg"},
-  {"id": 10, "cat": "मेन कोर्स / Main Course", "name": "हंडी चिकन (हाफ) / Handi Chicken (Half)", "price": "300/-", "desc": "स्पेशल हंडी चिकन (हाफ)।", "tags": ["Non-Veg", "Chicken"], "img": "img/handi_chicken.jpg"},
-  {"id": 11, "cat": "मेन कोर्स / Main Course", "name": "हंडी चिकन (फुल) / Handi Chicken (Full)", "price": "500/-", "desc": "स्पेशल हंडी चिकन (फुल)।", "tags": ["Non-Veg", "Chicken"], "img": "img/handi_chicken.jpg"},
-  {"id": 12, "cat": "मेन कोर्स / Main Course", "name": "मटन डिश (हाफ) / Mutton Dish (Half)", "price": "500/-", "desc": "स्वादिष्ट मटन करी (हाफ)।", "tags": ["Non-Veg", "Mutton"], "img": "img/mutton_dish.jpg"},
-  {"id": 13, "cat": "मेन कोर्स / Main Course", "name": "मटन डिश (फुल) / Mutton Dish (Full)", "price": "900/-", "desc": "स्वादिष्ट मटन करी (फुल)।", "tags": ["Non-Veg", "Mutton"], "img": "img/mutton_dish.jpg"},
-  {"id": 14, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "मलाई चाप (हाफ) / Malai Chaap (Half)", "price": "150/-", "desc": "मलाई चाप स्टार्टर (हाफ)।", "tags": ["Veg", "Starter"], "img": "img/malai_chaap.jpg"},
-  {"id": 15, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "मलाई चाप (फुल) / Malai Chaap (Full)", "price": "250/-", "desc": "मलाई चाप स्टार्टर (फुल)।", "tags": ["Veg", "Starter"], "img": "img/malai_chaap.jpg"},
-  {"id": 16, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "तंदूरी चाप (हाफ) / Tandoori Chaap (Half)", "price": "200/-", "desc": "चटपटा तंदूरी चाप (हाफ)।", "tags": ["Veg", "Starter"], "img": "img/tandoori_chaap.jpg"},
-  {"id": 17, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "तंदूरी चाप (फुल) / Tandoori Chaap (Full)", "price": "300/-", "desc": "चटपटा तंदूरी चाप (फुल)।", "tags": ["Veg", "Starter"], "img": "img/tandoori_chaap.jpg"},
-  {"id": 18, "cat": "साइड डिश / Side Dish", "name": "ग्रीन सलाद / Green Salad", "price": "40/-", "desc": "ताजा हरा सलाद।", "tags": ["Veg", "Salad"], "img": "img/green_salad.jpg"},
-  {"id": 19, "cat": "पेय पदार्थ / Beverages", "name": "कुल्हड़ चाय / Kullad Chai", "price": "25/-", "desc": "कड़क कुल्हड़ चाय।", "tags": ["Veg", "Tea"], "img": "img/kullad_chai.jpg"},
-  {"id": 20, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "चिकन टिक्का (हाफ) / Chicken Tikka (Half)", "price": "250/-", "desc": "चिकन टिक्का स्टार्टर (हाफ)।", "tags": ["Non-Veg", "Chicken"], "img": "img/chicken_tikka.jpg"},
-  {"id": 21, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "चिकन टिक्का (फुल) / Chicken Tikka (Full)", "price": "400/-", "desc": "चिकन टिक्का स्टार्टर (फुल)।", "tags": ["Non-Veg", "Chicken"], "img": "img/chicken_tikka.jpg"},
-  {"id": 22, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "पनीर टिक्का (हाफ) / Paneer Tikka (Half)", "price": "200/-", "desc": "पनीर टिक्का स्टार्टर (हाफ)।", "tags": ["Veg", "Starter"], "img": "img/paneer_tikka.jpg"},
-  {"id": 23, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "पनीर टिक्का (फुल) / Paneer Tikka (Full)", "price": "350/-", "desc": "पनीर टिक्का स्टार्टर (फुल)।", "tags": ["Veg", "Starter"], "img": "img/paneer_tikka.jpg"},
+  // {"id": 6, "cat": "स्टार्टर / Starters", "name": "फिश पकोडा (250gm) / Fish Pakoda (250gm)", "price": "100/-", "desc": "कुरकुरा फिश पकोड़ा (250 ग्राम)।", "tags": ["Non-Veg", "Fish", "Starter"], "img": "img/fish_pakoda.jpg"},
+  // {"id": 7, "cat": "तंदूरी और रोटी / Tandoori & Roti", "name": "तंदूरी रोटी / Tandoori Roti", "price": "10/-", "desc": "गरम सादी तंदूरी रोटी।", "tags": ["Veg", "Roti"], "img": "img/tandoori_roti.jpg"},
+  // {"id": 8, "cat": "तंदूरी और रोटी / Tandoori & Roti", "name": "बटर तंदूरी रोटी / Butter Tandoori Roti", "price": "15/-", "desc": "मक्खन वाली तंदूरी रोटी।", "tags": ["Veg", "Roti"], "img": "img/butter_roti.jpg"},
+  // {"id": 9, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "तंदूरी अंडा (2 नग) / Tandoori Egg (2 Pc)", "price": "80/-", "desc": "तंदूरी स्टाइल अंडा (2 पीस)।", "tags": ["Non-Veg", "Egg"], "img": "img/tandoori_egg.jpg"},
+  // {"id": 10, "cat": "मेन कोर्स / Main Course", "name": "हंडी चिकन (हाफ) / Handi Chicken (Half)", "price": "300/-", "desc": "स्पेशल हंडी चिकन (हाफ)।", "tags": ["Non-Veg", "Chicken"], "img": "img/handi_chicken.jpg"},
+  // {"id": 11, "cat": "मेन कोर्स / Main Course", "name": "हंडी चिकन (फुल) / Handi Chicken (Full)", "price": "500/-", "desc": "स्पेशल हंडी चिकन (फुल)।", "tags": ["Non-Veg", "Chicken"], "img": "img/handi_chicken.jpg"},
+  // {"id": 12, "cat": "मेन कोर्स / Main Course", "name": "मटन डिश (हाफ) / Mutton Dish (Half)", "price": "500/-", "desc": "स्वादिष्ट मटन करी (हाफ)।", "tags": ["Non-Veg", "Mutton"], "img": "img/mutton_dish.jpg"},
+  // {"id": 13, "cat": "मेन कोर्स / Main Course", "name": "मटन डिश (फुल) / Mutton Dish (Full)", "price": "900/-", "desc": "स्वादिष्ट मटन करी (फुल)।", "tags": ["Non-Veg", "Mutton"], "img": "img/mutton_dish.jpg"},
+  // {"id": 14, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "मलाई चाप (हाफ) / Malai Chaap (Half)", "price": "150/-", "desc": "मलाई चाप स्टार्टर (हाफ)।", "tags": ["Veg", "Starter"], "img": "img/malai_chaap.jpg"},
+  // {"id": 15, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "मलाई चाप (फुल) / Malai Chaap (Full)", "price": "250/-", "desc": "मलाई चाप स्टार्टर (फुल)।", "tags": ["Veg", "Starter"], "img": "img/malai_chaap.jpg"},
+  // {"id": 16, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "तंदूरी चाप (हाफ) / Tandoori Chaap (Half)", "price": "200/-", "desc": "चटपटा तंदूरी चाप (हाफ)।", "tags": ["Veg", "Starter"], "img": "img/tandoori_chaap.jpg"},
+  // {"id": 17, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "तंदूरी चाप (फुल) / Tandoori Chaap (Full)", "price": "300/-", "desc": "चटपटा तंदूरी चाप (फुल)।", "tags": ["Veg", "Starter"], "img": "img/tandoori_chaap.jpg"},
+  // {"id": 18, "cat": "साइड डिश / Side Dish", "name": "ग्रीन सलाद / Green Salad", "price": "40/-", "desc": "ताजा हरा सलाद।", "tags": ["Veg", "Salad"], "img": "img/green_salad.jpg"},
+  // {"id": 19, "cat": "पेय पदार्थ / Beverages", "name": "कुल्हड़ चाय / Kullad Chai", "price": "25/-", "desc": "कड़क कुल्हड़ चाय।", "tags": ["Veg", "Tea"], "img": "img/kullad_chai.jpg"},
+  // {"id": 20, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "चिकन टिक्का (हाफ) / Chicken Tikka (Half)", "price": "250/-", "desc": "चिकन टिक्का स्टार्टर (हाफ)।", "tags": ["Non-Veg", "Chicken"], "img": "img/chicken_tikka.jpg"},
+  // {"id": 21, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "चिकन टिक्का (फुल) / Chicken Tikka (Full)", "price": "400/-", "desc": "चिकन टिक्का स्टार्टर (फुल)।", "tags": ["Non-Veg", "Chicken"], "img": "img/chicken_tikka.jpg"},
+  // {"id": 22, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "पनीर टिक्का (हाफ) / Paneer Tikka (Half)", "price": "200/-", "desc": "पनीर टिक्का स्टार्टर (हाफ)।", "tags": ["Veg", "Starter"], "img": "img/paneer_tikka.jpg"},
+  // {"id": 23, "cat": "तंदूरी और स्टार्टर / Tandoori & Starters", "name": "पनीर टिक्का (फुल) / Paneer Tikka (Full)", "price": "350/-", "desc": "पनीर टिक्का स्टार्टर (फुल)।", "tags": ["Veg", "Starter"], "img": "img/paneer_tikka.jpg"},
   {"id": 24, "cat": "अन्य / Others", "name": "हुक्का चार्ज / Hukka Charge", "price": "40/-", "desc": "हुक्का सर्विस चार्ज।", "tags": ["Service"], "img": "img/hukka.jpg"},
 
 {"id": 401, "cat": "NON-VEG", "name": "फिश पकोडा (काटा) - Fish Pakoda (Bone) Qtr", "price": "70/-", "desc": "Fish Pakoda with bone (Quarter)", "tags": ["Non-Veg"], "img": "img/fish_pakoda_bone.jpeg"},
